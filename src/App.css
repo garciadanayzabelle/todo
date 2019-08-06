@@ -1,0 +1,277 @@
+@font-face {
+  font-family: "belynda";
+  src: url(Belynda.ttf);
+}
+
+@font-face {
+  font-family: "modernsans";
+  src: url(ModernSans-Light.otf);
+}
+
+@font-face {
+  font-family: "handsup";
+  src: url(ThrowMyHandsUpintheAirBold.ttf);
+}
+
+@font-face {
+  font-family: "moonflower";
+  src: url(Moon Flower Bold.ttf);
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+h1 {
+  
+}
+
+h4 {
+  font-family: "moonflower", sans-serif;
+  font-size: 40px;
+  color: #303030;
+  margin-top: 35px;
+}
+
+li span{
+  font-family: "handsup", sans-serif;
+  font-size: 18px;
+  color: #303030;
+}
+
+input{
+  font-family: "handsup", sans-serif;
+/*  letter-spacing: 1px;*/
+  color: #303030;
+}
+
+.doneBtn {
+  color: transparent;
+  border: none;
+  font-size: 18px;
+  width: 28px;
+  height: 28px;
+}
+
+.doneBtn:hover {
+  color: #00690e;
+}
+
+.ongoingBtn {
+  color: white;
+  background-color: #00690e;
+  border: none;
+  font-size: 18px;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%!important;
+}
+
+.ongoingBtn:hover {
+  background-color: #00bd19;
+  
+}
+
+.editBtn {
+  background-color: #007780;
+  color: white;
+  border: none;
+  font-size: 18px;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%!important;
+}
+
+.editBtn:hover {
+  background-color: #02b2bf;
+}
+
+.deleteBtn {
+  background-color: #800000;
+  color: white;
+  border: none;
+  font-size: 18px;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%!important;
+}
+
+.deleteBtn:hover {
+  background-color: #c40000;
+}
+
+.pendingBtn {
+  background-color: #e09f1d;
+  color: white;
+  border: none;
+  font-size: 18px;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%!important;
+}
+
+.pendingBtn:hover {
+  background-color: #ffaa00;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.strikethrough:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.jumbo {
+  background-color: #303030;
+
+}
+
+.jumbotext {
+  /*font-family: "modernsans", sans-serif;*/
+  color: white;
+}
+
+.clearcompleted {
+  font-family: "modernsans", sans-serif;
+  letter-spacing: 1px;
+  border: 2px solid #303030;
+  background-color: #303030;
+}
+
+.clearcompleted:hover {
+  background-color: white;
+  color: #303030;
+}
+
+
+/*AddTaskForm*/
+.taskinput {
+  border-color: #303030;
+  margin-right: 10px;
+  border-width: 1.5px;
+  border-radius: 12px;
+}
+.taskinput:focus {
+  background-color: #f7f7f7;
+  box-shadow: none !important;
+  border-color: #303030;
+}
+
+.addtaskBtn {
+  border: 2px solid #303030;
+  background-color: #303030;
+  color: white;
+  border-width: 1.5px;
+  border-radius: 12px;
+  font-family: "modernsans", sans-serif;
+}
+
+.addtaskBtn:hover {
+  background-color: white;
+  color: #303030;
+}
+
+
+/*task items*/
+
+.pendingtask {
+  border-top-color: transparent;
+  border-left-color: #e09f1d;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-radius: 0!important;
+  border-width: 5px;
+  height: 45px;
+  padding-top: 2px;
+}
+
+
+.ongoingtask {
+  border-top-color: transparent;
+  border-left-color: #00690e;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-radius: 0!important;
+  border-width: 5px;
+  height: 45px;
+  padding-top: 2px;
+}
+
+.pendingTaskEdit {
+  border: 1px solid transparent;
+  width:60%;
+  padding: 5px 0px 5px 10px;
+}
+
+.pendingTaskEdit:hover {
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.pendingTaskEdit:focus {
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  outline: none;
+}
+
+.completedtask {
+  border-color: transparent;
+  height: 35px;
+}
+
+.disablededit {
+  cursor: default;
+}
+
+/*navbar*/
+
+.navbarli {
+  display: inline;
+  border: 1.5px solid #303030;
+  background-color: #303030;
+  margin: 13px;
+  text-decoration: none;
+  padding-bottom: 
+}
+
+
+.navbarli:hover {
+  background-color: white;
+}
+
+a {
+  color: white;
+  font-family: "modernsans", sans-serif;
+  display: inline-block;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #303030;
+}
+
+.navbarul {
+  margin-top: 20px;
+  text-align: center;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+
